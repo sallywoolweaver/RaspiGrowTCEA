@@ -8,7 +8,7 @@ For use with https://learn.pimoroni.com/article/assembling-grow
    - **sudo chmod a+w /usr/bin/grow-monitor**
      - This will stop the services then let you edit the files. Once you've finished your edits (make sure you are editing the usr/bin/grow-monitor file), start the service with
         - **sudo systemctl start grow-monitor.service**
-      
+      - Note - if you want to use the text messaging you need to use sudo pip install *packagename* in order to work
  
 ## If you want to edit the pump time or alarm time manually
 -   In the terminal run: 
